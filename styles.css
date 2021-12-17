@@ -58,6 +58,9 @@ a {
 img {
   width: 100%;
 }
+figcaption {
+  font-size: 11px;
+}
 
 /* Utils */
 .mt-xs {
@@ -260,10 +263,14 @@ nav {
 }
 .about-img-figure {
   margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about-img {
   width: 100%;
-  margin-top: 10px;
+  max-width: 400px;
   border-radius: 11px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
@@ -286,6 +293,7 @@ nav {
   font-style: italic;
   color: var(--white);
   padding: 6px;
+  line-height: 22px;
 }
 
 /* Footer Section */
@@ -342,6 +350,10 @@ nav {
     margin-top: 60px;
   }
 
+  .about-img {
+    max-width: 100%;
+  }
+
   /* Appearances Section */
   .appearances-collection {
     margin-top: 50px;
@@ -356,6 +368,7 @@ nav {
 
 @media (min-width: 1200px) {
   /* Utils */
+
   .container {
     max-width: 1120px;
   }
@@ -367,6 +380,8 @@ nav {
   .hero-desc {
     font-size: 22px;
   }
+
+  /* About Section */
 
   /* Appearances Section */
   .appearances-collection {
