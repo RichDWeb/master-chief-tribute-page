@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400&display=swap');
+
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  position: relative;
+  background-image: url('./img/HaloInfinite_CampaignKeyArt_CLEAN_1920x1080.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-heading {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.hero-desc {
+  font-family: 'Segoe UI';
+  color: #fff;
+  line-height: 26px;
+  font-size: 20px;
+  margin-top: 30px;
+  letter-spacing: 1.4px;
+}
